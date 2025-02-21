@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center;
+    font-family: "Inter", serif;
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0;
+}
+
+#headerContainer {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add space from the top of the page */
+}
+
+#headerContainer h2 {
+    margin-top: 0px; /* Add space from the top of the page */
+}
+
+#formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+#dropdown1, #dropdown2 {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+#inputField {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+select {
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding-right: 30px;
+    width: 200px;
+}
+
+input[type="text"] {
+    text-align: center;
+}
+
+#storyboard {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px; /* Space between the form and the storyboard */
+}
+
+#storyboard div {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
