@@ -32,10 +32,7 @@ function createForm() {
     dropdown2.appendChild(defaultOption2);
 
     // Create the input field
-    const inputField = document.createElement('input');
-    inputField.id = "inputField";
-    inputField.type = "text";
-    inputField.placeholder = "Enter text";
+   
 
 // Function to add options to a dropdown dynamically
 function addOptionsToDropdown(dropdown, options, placeholderText) {
