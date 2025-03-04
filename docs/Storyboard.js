@@ -220,7 +220,7 @@ function checkSelections() {
     // Append the dropdowns and input field to the form container
     formDiv.appendChild(dropdown1);
     formDiv.appendChild(dropdown2);
-    formDiv.appendChild(inputField);
+
 
     // Optionally, append the form to the body or any specific element
     document.body.appendChild(formDiv);
